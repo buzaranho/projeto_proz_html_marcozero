@@ -1,1 +1,1 @@
-# projeto_proz_html_marcozero
+# Atividade 2 - pagina Marco Zero com um hiperlink para pagina de Pontos Turísticos.
