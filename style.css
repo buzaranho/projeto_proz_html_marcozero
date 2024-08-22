@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --red: #d63a25;
+    --white:#fff;
+    --dark:#1e1c2a;
+    --snow: #FFFAFA;
+    --slateblue1:#836FFF;  
+}
+body{
+    color: var(--dark);
+    background: var(--snow);
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    width: 100%;
+    background: var(--slateblue1);
+    transition: all 0.5s;
+    position: fixed;
+}
+.navigation .pontoturisticoprincipal{
+    color: var(--white);
+    font-size: 1.7rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    color: var(--white);
+}
+.navigation ul li a{
+    color: var(--white);
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.navigation ul li a:hover{
+    color: var(--red);
+}
+.pontoturisticos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5%; 
+}
+main{
+    height: 80vh;
+}
+.redessociais{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 18px 40px;
+    background: var(--dark);
+    width: 100%;
+    transition: all 0.5s;
+    position: fixed;
+    bottom: 0;
+}
+.redessociais a{
+    color: var(--white);
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.redessociais a:hover{
+    color: var(--red);
+}
